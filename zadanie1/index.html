@@ -1,0 +1,38 @@
+<html>
+<head>
+    <title>Przyk³ad nr tutaj wpisz odpowiedni nume </title>
+    <script language="JavaScript">
+        function WinOpen_Dzioba() {
+            window.open("obraz.html", "okienko", "toolbar=no,directories=no,menubar=no,height=280,width=160,top=200,left=200");
+        }
+    </script>
+</head>
+<!--
+
+Metoda open() otwiera nowe okno przegl¹darki lub now¹ kartê, w zale¿noœci od ustawieñ przegl¹darki i wartoœci parametrów
+
+toolbar=no  np. ukrywa przyciski katalogów
+directories=no, - wartoœæ yes lub no (1 lub 0): pokazuje lub ukrywa przyciski katalogów
+menubar=no, -wartoœæ yes lub no (1 lub 0): pokazuje lub ukrywa menu przegl¹darki
+height=280, - wartoœæ w pixelach : ustawia wysokoœæ okna
+width=160, - wartoœæ w pixelach : ustawia szerokoœæ okna
+top=200, - wartoœæ w pixelach : ustawia po³o¿enie okna wzglêdem góry ekranu
+left=200 - wartoœæ w pixelach : ustawia po³o¿enie okna wzglêdem lewej strony ekranu
+window.close()
+-->
+<body>
+    <form>
+        <input type="button" name="przycisk" value="Nowa Strona" onclick="WinOpen_Dzioba(' ')">
+        Dodanie przycisku, funkcja "button" nazwa "przycisk" dza³anie 1 klick , funkcja otwieranie nowej storny o naziwe "WinOpen_Dzioba"
+    </form>
+
+    <form action="https://3godzinyl.github.io/Hubert_Kraskowski_Zadania3K/">
+        <input type="submit" value="Home" />
+    </form>
+
+    <form action="file:///C:/Users/huber/Desktop/Hubert_Kraskowski_Zadania3K-main/resources/zadanie2/index.html">
+        <input type="submit" value="Zadanie2" />
+    </form>
+
+</body>
+</html>
